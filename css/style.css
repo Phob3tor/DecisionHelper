@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: rgb(4, 78, 53);
+    color: white;
+    text-align: center;
+
+}
+
+.main-heading {
+    margin-top: 2rem;
+    font-family: monospace;
+    font-size: 4rem;
+}
+
