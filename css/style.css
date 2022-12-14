@@ -23,15 +23,16 @@ body {
 
 
 .main {
-    border: 0.25rem solid white;
-    padding: 2rem;
-    border-radius: 1rem;
+    
 }
 
 .addtask__container {
     display: flex;
     flex-direction: column;
-
+    border: 0.25rem solid white;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(2, 44, 30);
 }
 
 .addtask__heading {
@@ -67,4 +68,58 @@ body {
     color: rgb(190, 190, 83);
     border: 0.125rem solid rgb(190, 190, 83);
     cursor: pointer;
+}
+
+.tasks__container {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    border: 0.25rem solid white;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(2, 44, 30);
+}
+
+.tasks__heading {
+    font-size: 2rem;
+    font-family: monospace;
+    margin-bottom: 0.5rem;
+}
+
+.tasks__inner-div {
+    border: 0.25rem solid white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+.task {
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem;
+    
+}
+
+.task__text {
+    margin-right: 0.5rem;
+    
+    white-space: nowrap;
+
+}
+
+.task__outer-bar {
+    width: 20rem;
+    margin-right: 0.5rem;
+}
+
+.task__bar {
+    height: 1rem;
+    width: 100%;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+
+.task__percentage {
+    width: 2rem;
 }
